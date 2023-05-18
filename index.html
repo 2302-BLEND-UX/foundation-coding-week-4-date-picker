@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- datepicker css library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.2/dist/css/datepicker.min.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- my custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Datepicker</title>
+</head>
+
+<body>
+    <h1 data-aos="fade-up" data-aos-delay="50">How long would you like to stay in Rarotonga?</h1>
+    <div>
+        <div id="custom-datepicker" data-aos="fade-up" data-aos-delay="250">
+            <input type="text" id="start-date" name="start">
+            <span id="to-span">to</span>
+            <input type="text" id="end-date" name="end">
+        </div>
+        <div id="date-status"></div>
+    </div>
+    <!-- datepicker js -->
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.3.2/dist/js/datepicker-full.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- attach javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
